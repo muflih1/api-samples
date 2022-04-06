@@ -136,7 +136,7 @@ def list_video_localizations(youtube, args):
       print ('Video title is \'%s\' and description is \'%s\' in language \'%s\''
              % (localization['title'], localization['description'], language))
   else:
-    print 'There aren\'t any localizations for this video yet.'
+    pri
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()
